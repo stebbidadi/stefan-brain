@@ -3,38 +3,44 @@
 > Personal knowledge-base and AI workflow project.
 
 ## Status
-**Status:** Active / Setup  
+**Status:** Active  
 **Last updated:** 2026-09-28
 
 ## Goal
-Create a persistent, compact knowledge base that ChatGPT can reference across devices without repeatedly reconstructing context from long chat histories.
+Provide reliable cross-device context while minimizing repeated context reconstruction, tool calls, and token usage.
 
-## Main Components
-- GitHub repository: `stefan-brain`
-- Markdown files.
-- Obsidian planned as the local knowledge interface.
-- GitHub used for device-independent access.
-- ChatGPT used as the reasoning/conversation layer.
+## Architecture
+- GitHub repository: `stebbidadi/stefan-brain`
+- ChatGPT: reasoning and conversation layer
+- GitHub connector: cross-device knowledge access
+- Obsidian: planned local editing interface
+- Weekly automation: maintain durable project context
 
 ## Core Files
-- `AI_MASTER_RULES.md`
-- `USER_PROFILE.md`
-- `PROJECTS.md`
-- `INBOX.md`
-- Individual `projects/<name>/PROJECT.md` files.
+- `AI_MASTER_RULES.md` — operating and context-efficiency rules
+- `PROJECTS.md` — routing index, used only when project routing is unclear
+- `USER_PROFILE.md` — stable general context, loaded only when needed
+- `INBOX.md` — unsorted durable information
+- `projects/<name>/PROJECT.md` — project-specific source of truth
 
-## Design Principles
-- Keep master files small.
-- Load only relevant project context.
-- Prefer one source of truth over duplicate notes.
-- Put detailed information in project-specific files.
-- Avoid turning the system into a transcript archive.
+## Context Strategy
+- Skip Stefan Brain entirely for generic questions.
+- When a project is obvious, read `AI_MASTER_RULES.md` then that project directly.
+- Skip `PROJECTS.md` when routing is already obvious.
+- Load one project by default.
+- Do not re-read unchanged files in the same conversation.
+- Keep project files compact.
+- Only add a short current-state snapshot if a `PROJECT.md` grows beyond roughly 4 KB; move deep history into supporting notes.
 
-## Current Focus
-- Keep the GitHub structure clean.
-- Set up Obsidian on the main computer later.
-- Maintain project files with a weekly update workflow.
-- Optimize for low context/token usage.
+## Work Strategy
+- Prefer normal ChatGPT + connectors when that can reliably complete the task.
+- Use Work for genuinely multi-step agentic tasks.
+- In Work, recommend the least resource-intensive suitable model and thinking level before acting.
+
+## Next Actions
+- Set up Obsidian on the main computer.
+- Review usage after the weekly automation has run a few times.
+- Split project files only when growth makes targeted retrieval worthwhile.
 
 ## Notes for ChatGPT
-Avoid unnecessary files. Read the smallest set of files required for the current task.
+Optimize for the smallest reliable context set, not maximum context loading.
