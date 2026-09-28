@@ -7,6 +7,7 @@
 - **Auto Nightclub** — Auto, venue operations, club equipment, house management → [PROJECT](projects/auto-nightclub/PROJECT.md)
 - **grandMA3** — MA3, console programming, cues, groups, macros, fixture behavior → [PROJECT](projects/grandma3/PROJECT.md)
 - **Lighting Pre-Visualization** — Capture, Depence, L8, MA3 3D, Vectorworks, pre-vis → [PROJECT](projects/lighting-previs/PROJECT.md)
+- **Design Knowledge** — typography, grids, layout, Bauhaus/New Typography, Swiss systems, design critique → [PROJECT](projects/design-knowledge/PROJECT.md)
 - **ResPress** — BA final project, legibility, exhibition, respress.is → [PROJECT](projects/respress/PROJECT.md)
 - **Graphic Design Portfolio** — portfolio layouts, project selection, presentation → [PROJECT](projects/portfolio/PROJECT.md)
 - **Career & Job Applications** — CV, applications, jobs, professional outreach → [PROJECT](projects/career/PROJECT.md)
