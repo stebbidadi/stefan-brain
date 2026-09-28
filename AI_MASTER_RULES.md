@@ -21,6 +21,7 @@
 - Do not retrieve the same unchanged file twice in one conversation.
 - Prefer targeted sections/ranges of long files instead of the entire file when possible.
 - Do not retrieve the same fact from multiple sources unless verification is useful.
+- For project facts, prefer the relevant repository file over remembered chat history or assumptions.
 - Prefer concise answers by default; expand when the task benefits from detail or I ask for it.
 - Use web research only when information is current, external, uncertain, or explicitly requested.
 - If a `PROJECT.md` grows beyond roughly 4 KB, keep a short current-state summary near the top and move deep history/reference material into supporting files.
