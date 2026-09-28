@@ -17,20 +17,21 @@
 
 Use information in this order unless the task clearly requires otherwise:
 
-1. `AI MASTER RULES.md`
-2. `CURRENT FOCUS.md`
-3. Relevant project files
-4. Other vault / knowledge-base notes
-5. Current chat context
-6. Connected apps and files
-7. Web sources when current external information is needed
+1. `AI_MASTER_RULES.md`
+2. `USER_PROFILE.md` for stable user context
+3. `PROJECTS.md` to identify the relevant project
+4. Relevant `projects/<project-name>/PROJECT.md` files
+5. Other knowledge-base notes, including `INBOX.md` when relevant
+6. Current chat context
+7. Connected apps and files
+8. Web sources when current external information is needed
 
 ## 3. File Management Rules
 
 - Prefer updating an existing file over creating a duplicate.
 - Use clear, readable filenames.
 - Use `YYYY-MM-DD` for dates.
-- Put uncategorized material in `99 - INBOX`.
+- Put uncategorized material in `INBOX.md`.
 - Do not create new folders unless there is a clear reason.
 - Do not delete or overwrite important information without preserving what matters.
 - Keep notes structured enough that both a person and AI can understand them quickly.
@@ -96,7 +97,9 @@ When editing my files:
 When ChatGPT has access to this knowledge base:
 
 - Read this file before making significant changes to the knowledge base.
-- Read `CURRENT FOCUS.md` before working on ongoing projects.
+- Use `USER_PROFILE.md` only when stable user context is relevant to the task.
+- Use `PROJECTS.md` to locate the relevant project instead of loading every project file.
+- Read only the relevant `PROJECT.md` files needed for the task unless the task genuinely spans multiple projects.
 - Search relevant project files before asking me for information that may already exist.
 - Treat this file as the default instruction layer for the knowledge base.
 - If a request from me in the current chat conflicts with this file, follow my current explicit request for that task.
