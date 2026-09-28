@@ -1,14 +1,14 @@
 # Stefan Brain
 
-Personal Markdown knowledge base for keeping durable context available across ChatGPT, GitHub, and a future Obsidian vault.
+Personal Markdown knowledge base for durable context across ChatGPT, GitHub, and a future Obsidian vault.
 
-## Start Here
+## Fast Path
 
-1. Read `AI_MASTER_RULES.md` for operating rules.
-2. Read `USER_PROFILE.md` only when stable personal/professional context is relevant.
-3. Use `PROJECTS.md` to locate the relevant project.
-4. Open only the specific `projects/<name>/PROJECT.md` files needed for the task.
-5. Use `INBOX.md` for unsorted durable information.
+1. Read `AI_MASTER_RULES.md` when Stefan Brain is relevant.
+2. If the project is obvious, open that `projects/<name>/PROJECT.md` directly.
+3. Use `PROJECTS.md` only when routing is unclear.
+4. Read `USER_PROFILE.md` only when stable personal/professional context is needed.
+5. Load additional notes only when the task actually requires them.
 
 ## Structure
 
@@ -24,7 +24,9 @@ projects/
 
 ## Context-Efficiency Rule
 
-Do not load every file by default. Read the smallest set of files needed for the current task. This repository is designed to reduce repeated context reconstruction and unnecessary token use.
+Read the smallest set of files needed for the current task. Do not load the entire repository by default, and do not re-read unchanged files unnecessarily.
+
+If a `PROJECT.md` becomes large, keep a compact current-state summary near the top and move detailed history/reference material into supporting files.
 
 ## Storage Rule
 
