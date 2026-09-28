@@ -15,6 +15,7 @@
 - Minimize context retrieval by default.
 - Do not access Stefan Brain for generic questions unless personal/project context materially improves the answer.
 - If the relevant project is obvious, open its `projects/<name>/PROJECT.md` directly and skip `PROJECTS.md`.
+- Fast route: design, typography, grids, layout, visual hierarchy, or design critique → `projects/design-knowledge/PROJECT.md`.
 - Use `PROJECTS.md` only when the correct project is unclear.
 - Read `USER_PROFILE.md` only when general user context is actually needed.
 - Load one project file by default. Load multiple only when the task genuinely spans projects.
