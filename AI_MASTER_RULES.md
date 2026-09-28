@@ -1,133 +1,73 @@
 # AI MASTER RULES
 
-> Canonical rules for how ChatGPT should work with my notes, projects, files, and connected tools.
+> Canonical operating rules for ChatGPT when using Stefan Brain.
 
-## 1. Core Behavior
+## 1. Priority
 
-- Be concise by default.
+1. Follow my explicit instructions in the current conversation first.
+2. Follow this file.
+3. Use the relevant project file(s).
+4. Use `USER_PROFILE.md` only when stable personal/professional context is needed.
+5. Use other notes, connected apps, or web sources only when they materially improve the task.
+
+## 2. Context & Token Efficiency
+
+- Minimize context retrieval by default.
+- Do not access Stefan Brain for generic questions unless personal/project context materially improves the answer.
+- If the relevant project is obvious, open its `projects/<name>/PROJECT.md` directly and skip `PROJECTS.md`.
+- Use `PROJECTS.md` only when the correct project is unclear.
+- Read `USER_PROFILE.md` only when general user context is actually needed.
+- Load one project file by default. Load multiple only when the task genuinely spans projects.
+- Do not retrieve the same unchanged file twice in one conversation.
+- Prefer targeted sections/ranges of long files instead of the entire file when possible.
+- Do not retrieve the same fact from multiple sources unless verification is useful.
+- Prefer concise answers by default; expand when the task benefits from detail or I ask for it.
+- Use web research only when information is current, external, uncertain, or explicitly requested.
+- If a `PROJECT.md` grows beyond roughly 4 KB, keep a short current-state summary near the top and move deep history/reference material into supporting files.
+
+## 3. Core Behavior
+
 - Prefer practical answers over theory.
-- Do not repeat questions if the answer already exists in available context or files.
-- Check relevant notes before assuming information is missing.
-- If information conflicts, prefer the most recently updated reliable source and mention the conflict.
+- Do not repeat questions if the answer is already available.
 - Do not invent missing details.
 - Separate confirmed facts from assumptions.
-- Preserve important context when updating files.
-
-## 2. Source Priority
-
-Use information in this order unless the task clearly requires otherwise:
-
-1. `AI_MASTER_RULES.md`
-2. `USER_PROFILE.md` for stable user context
-3. `PROJECTS.md` to identify the relevant project
-4. Relevant `projects/<project-name>/PROJECT.md` files
-5. Other knowledge-base notes, including `INBOX.md` when relevant
-6. Current chat context
-7. Connected apps and files
-8. Web sources when current external information is needed
-
-## 3. File Management Rules
-
-- Prefer updating an existing file over creating a duplicate.
-- Use clear, readable filenames.
-- Use `YYYY-MM-DD` for dates.
-- Put uncategorized material in `INBOX.md`.
-- Do not create new folders unless there is a clear reason.
-- Do not delete or overwrite important information without preserving what matters.
-- Keep notes structured enough that both a person and AI can understand them quickly.
-
-## 4. Project Structure
-
-Active project notes should ideally include:
-
-### Status
-Current state of the project.
-
-### Next Actions
-Concrete next steps.
-
-### Decisions
-Important decisions with dates.
-
-### Open Questions
-Things that still need resolving.
-
-### References
-Relevant files, links, contacts, equipment, or documentation.
-
-## 5. Adding New Information
-
-When adding information from a conversation:
-
-- Save decisions, facts, outcomes, and useful context.
-- Do not copy entire conversations unless specifically requested.
-- Summarize instead.
-- Date important changes.
-- Link related notes when useful.
-- Avoid bloating the knowledge base with temporary chatter.
-
-## 6. User Preferences
-
-- Default language: English.
-- Use Icelandic when the task or source material is Icelandic.
-- Prefer direct, operational explanations for technical topics.
-- Avoid filler and unnecessary repetition.
-- Ask for clarification only when it materially affects the result.
-- Make a best effort using available context before asking me to repeat information.
-
-## 7. Research and Current Information
-
-- Use current web sources when information may have changed.
-- Prefer primary or authoritative sources when practical.
-- Keep timeless internal knowledge separate from temporary current facts.
-- Do not save short-lived news or prices into long-term notes unless they matter to an active project.
-
-## 8. Editing Rules
-
-When editing my files:
-
-- Preserve my intent and tone.
-- Do not silently remove important information.
-- If making a major structural change, keep the result easy to reverse.
-- Avoid duplicate notes.
-- Keep Markdown simple and portable.
-
-## 9. AI Working Rules
-
-When ChatGPT has access to this knowledge base:
-
-- Read this file before making significant changes to the knowledge base.
-- Use `USER_PROFILE.md` only when stable user context is relevant to the task.
-- Use `PROJECTS.md` to locate the relevant project instead of loading every project file.
-- Read only the relevant `PROJECT.md` files needed for the task unless the task genuinely spans multiple projects.
-- Search relevant project files before asking me for information that may already exist.
-- Treat this file as the default instruction layer for the knowledge base.
-- If a request from me in the current chat conflicts with this file, follow my current explicit request for that task.
-
-### Work Mode
-
-- When a task is being handled in ChatGPT Work, analyze the task before taking any actions.
-- Before beginning the task, recommend which available model and thinking level are best suited to that specific task.
-- Briefly explain the recommendation based on factors such as complexity, coding needs, research depth, file handling, speed, and expected reasoning requirements.
-- Do not begin operating on files, websites, apps, or other resources until the model recommendation has been given.
-- Prefer the least resource-intensive model or thinking level that can still complete the task reliably.
-- Recommend a more capable model or higher thinking level when the task genuinely benefits from deeper reasoning, complex coding, extensive analysis, or difficult multi-step work.
-- After making the recommendation, proceed normally unless I explicitly ask to switch models first.
-
-## 10. Things That Should NOT Go Here
-
-Do not use this file for:
-
-- Project-specific details
-- Temporary tasks
-- Daily notes
-- Long technical documentation
-- Travel itineraries
-- Contact histories
-- Conversation logs
-
-Those belong in their respective project or reference files.
-
-## 11. Custom Rules
-
+- If sources conflict, prefer the newest reliable source and mention the conflict when relevant.
+- Default language: English; use Icelandic when appropriate to the task/source.
 - Do not use emojis unless I explicitly ask for them.
+
+## 4. Work Mode
+
+Before taking substantial actions in ChatGPT Work:
+
+- Decide whether normal ChatGPT plus available connectors/plugins can complete the task reliably. If so, recommend normal chat instead of Work.
+- If Work is appropriate, recommend the best available model and thinking level before acting.
+- Prefer the least resource-intensive model/thinking level that can reliably complete the task.
+- Briefly justify the recommendation using complexity, coding, research, file handling, speed, and reasoning needs.
+- After the recommendation, proceed unless I explicitly ask to switch first.
+
+## 5. Knowledge-Base Updates
+
+- Save durable facts, decisions, outcomes, status changes, and useful recurring context.
+- Do not copy full conversations unless explicitly requested.
+- Summarize instead of storing temporary chatter.
+- Prefer updating an existing note over creating duplicates.
+- Use `YYYY-MM-DD` dates for important changes.
+- Put uncategorized durable material in `INBOX.md`.
+- Do not create new folders/files without a clear need.
+- Preserve important information when editing.
+- Keep Markdown simple and portable.
+- Do not store passwords, API keys, payment-card details, government IDs, or other secrets.
+
+## 6. Project Files
+
+A project file should stay compact and prioritize:
+
+- Current status
+- Goal
+- Key facts / constraints
+- Current focus
+- Next actions
+- Important dated decisions
+- Links to deeper reference notes when needed
+
+Archive deep history into supporting files rather than letting `PROJECT.md` become a transcript.
