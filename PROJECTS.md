@@ -1,20 +1,20 @@
 # PROJECTS
 
-> Master index. Open only the relevant project file for detailed context.
+> Routing index only. If the relevant project is obvious from the request, skip this file and open that `PROJECT.md` directly.
 
-## Active Projects
+## Routes
 
-- [Auto Nightclub](projects/auto-nightclub/PROJECT.md)
-- [grandMA3](projects/grandma3/PROJECT.md)
-- [Lighting Pre-Visualization](projects/lighting-previs/PROJECT.md)
-- [ResPress](projects/respress/PROJECT.md)
-- [Graphic Design Portfolio](projects/portfolio/PROJECT.md)
-- [Career & Job Applications](projects/career/PROJECT.md)
-- [Freelance Work](projects/freelance/PROJECT.md)
-- [Oman — October 2026](projects/oman-2026/PROJECT.md)
-- [Stefan Brain](projects/stefan-brain/PROJECT.md)
-- [Live Events & Technical Career Development](projects/live-events-career/PROJECT.md)
+- **Auto Nightclub** — Auto, venue operations, club equipment, house management → [PROJECT](projects/auto-nightclub/PROJECT.md)
+- **grandMA3** — MA3, console programming, cues, groups, macros, fixture behavior → [PROJECT](projects/grandma3/PROJECT.md)
+- **Lighting Pre-Visualization** — Capture, Depence, L8, MA3 3D, Vectorworks, pre-vis → [PROJECT](projects/lighting-previs/PROJECT.md)
+- **ResPress** — BA final project, legibility, exhibition, respress.is → [PROJECT](projects/respress/PROJECT.md)
+- **Graphic Design Portfolio** — portfolio layouts, project selection, presentation → [PROJECT](projects/portfolio/PROJECT.md)
+- **Career & Job Applications** — CV, applications, jobs, professional outreach → [PROJECT](projects/career/PROJECT.md)
+- **Freelance Work** — quotes, pricing, scopes, clients → [PROJECT](projects/freelance/PROJECT.md)
+- **Oman 2026** — Oman trip, itinerary, rental car, hotels, tours → [PROJECT](projects/oman-2026/PROJECT.md)
+- **Stefan Brain** — GitHub knowledge base, Obsidian, ChatGPT workflow → [PROJECT](projects/stefan-brain/PROJECT.md)
+- **Live Events Career** — festivals, larger shows, networking, technical career → [PROJECT](projects/live-events-career/PROJECT.md)
 
-## Usage Rule
+## Usage
 
-Use this file only to locate the relevant project. Do not load every project file unless the task genuinely spans multiple projects.
+Load only the project(s) necessary for the current task. Do not load every project file by default.
