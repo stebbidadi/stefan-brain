@@ -13,7 +13,7 @@
 - **Career & Job Applications** — CV, applications, jobs, professional outreach → [PROJECT](projects/career/PROJECT.md)
 - **Freelance Work** — quotes, pricing, scopes, clients → [PROJECT](projects/freelance/PROJECT.md)
 - **Oman 2026** — Oman trip, itinerary, rental car, hotels, tours → [PROJECT](projects/oman-2026/PROJECT.md)
-- **Stefan Brain** — GitHub knowledge base, Obsidian, ChatGPT workflow → [PROJECT](projects/stefan-brain/PROJECT.md)
+- **Stefan Brain** — knowledge-base maintenance, routing, reliability, token efficiency, ChatGPT workflow, plugins/connectors, automation, Obsidian, Codex/Work integration → [PROJECT](projects/stefan-brain/PROJECT.md)
 - **Live Events Career** — festivals, larger shows, networking, technical career → [PROJECT](projects/live-events-career/PROJECT.md)
 
 ## Usage
