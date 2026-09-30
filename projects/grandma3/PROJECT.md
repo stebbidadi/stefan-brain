@@ -4,7 +4,7 @@
 
 ## Status
 **Status:** Active  
-**Last updated:** 2026-09-28
+**Last updated:** 2026-09-30
 
 ## Goal
 Build a reliable reusable knowledge base for programming, troubleshooting, macros, networking, showfile organization, and live-show workflows.
@@ -35,10 +35,7 @@ Build a reliable reusable knowledge base for programming, troubleshooting, macro
 - MA3 2D / 3D troubleshooting.
 
 ## Auto Network Reference
-- MA3: `10.0.0.10`
-- Resolume: `10.0.0.20`
-- Subnet: `255.255.255.0`
-- Art-Net priority previously used: `101`
+Use the [Auto Nightclub technical environment](../auto-nightclub/PROJECT.md#technical-environment) as the canonical source for venue IP addresses, subnet, and Art-Net settings.
 
 ## Current Focus
 - Study newer grandMA3 features.
