@@ -10,8 +10,9 @@
 Build a reliable reusable knowledge base for programming, troubleshooting, macros, networking, showfile organization, and live-show workflows.
 
 ## Primary Environment
-- grandMA3 compact XT.
-- Primarily used for Auto Nightclub and live-event work.
+- grandMA3 hardware varies by job; commonly used desks include Compact, Compact XT, and Light.
+- Auto Nightclub does not have a permanently installed Compact XT; main venue lighting there is usually operated from a Wolfmix, with grandMA3 brought in when needed.
+- grandMA3 is also used for live-event and festival work outside Auto.
 
 ## Official Manual Reference
 Use [MANUAL_REFERENCE.md](MANUAL_REFERENCE.md) as the sole source for current software/manual versions, authoritative links, and manual-reference rules.
