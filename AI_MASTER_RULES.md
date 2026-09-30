@@ -55,11 +55,12 @@ Before taking substantial actions in ChatGPT Work:
 - Summarize instead of storing temporary chatter.
 - Prefer updating an existing note over creating duplicates.
 - Use `YYYY-MM-DD` dates for important changes.
-- Put uncategorized durable material in `INBOX.md`.
+- Use `INBOX.md` as a temporary staging area for durable information awaiting routing.
 - Do not create new folders/files without a clear need.
 - Preserve important information when editing.
 - Keep Markdown simple and portable.
 - Do not store passwords, API keys, payment-card details, government IDs, or other secrets.
+- Keep sensitive or highly private information out unless there is a clear reason and appropriate access control.
 
 ## 6. Project Files
 

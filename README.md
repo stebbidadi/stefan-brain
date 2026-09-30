@@ -2,32 +2,15 @@
 
 Personal Markdown knowledge base for durable context across ChatGPT, GitHub, and a future Obsidian vault.
 
-## Fast Path
+## Repository Guide
 
-1. Read `AI_MASTER_RULES.md` when Stefan Brain is relevant.
-2. If the project is obvious, open that `projects/<name>/PROJECT.md` directly.
-3. Use `PROJECTS.md` only when routing is unclear.
-4. Read `USER_PROFILE.md` only when stable personal/professional context is needed.
-5. Load additional notes only when the task actually requires them.
+- [AI_MASTER_RULES.md](AI_MASTER_RULES.md) — canonical operating rules for AI assistance and knowledge-base maintenance.
+- [AGENTS.md](AGENTS.md) — repository guidance for Codex.
+- [PROJECTS.md](PROJECTS.md) — index of project areas.
+- [USER_PROFILE.md](USER_PROFILE.md) — stable personal and professional context.
+- [INBOX.md](INBOX.md) — temporary staging area for durable information awaiting routing.
+- `projects/<project-name>/PROJECT.md` — each project's current status, goals, facts, and next actions; supporting notes hold deeper references.
 
-## Structure
+## Maintenance
 
-```text
-AI_MASTER_RULES.md
-USER_PROFILE.md
-PROJECTS.md
-INBOX.md
-projects/
-  <project-name>/
-    PROJECT.md
-```
-
-## Context-Efficiency Rule
-
-Read the smallest set of files needed for the current task. Do not load the entire repository by default, and do not re-read unchanged files unnecessarily.
-
-If a `PROJECT.md` becomes large, keep a compact current-state summary near the top and move detailed history/reference material into supporting files.
-
-## Storage Rule
-
-Do not store passwords, API keys, payment-card details, government IDs, or other secrets in this repository. Keep sensitive or highly private information out unless there is a clear reason and appropriate access control.
+Operating rules, context retrieval, and storage guidance are maintained in [AI_MASTER_RULES.md](AI_MASTER_RULES.md). See the [Stefan Brain project](projects/stefan-brain/PROJECT.md) for workflow setup, current progress, and next actions.

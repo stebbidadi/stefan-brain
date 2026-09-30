@@ -4,7 +4,7 @@
 
 ## Status
 **Status:** Active  
-**Last updated:** 2026-09-28
+**Last updated:** 2026-09-30
 
 ## Goal
 Grow from venue-based technical work into larger lighting, festival, touring, and live-production opportunities while combining technical skill with a design background.
@@ -45,10 +45,10 @@ Grow from venue-based technical work into larger lighting, festival, touring, an
 - Position CV and portfolio to show both design and live-production experience.
 
 ## Related Projects
-- `../auto-nightclub/PROJECT.md`
-- `../grandma3/PROJECT.md`
-- `../lighting-previs/PROJECT.md`
-- `../career/PROJECT.md`
+- [Auto Nightclub](../auto-nightclub/PROJECT.md)
+- [grandMA3](../grandma3/PROJECT.md)
+- [Lighting Pre-Visualization](../lighting-previs/PROJECT.md)
+- [Career & Job Applications](../career/PROJECT.md)
 
 ## Notes for ChatGPT
 Treat this as a long-term career-development project rather than a single application.

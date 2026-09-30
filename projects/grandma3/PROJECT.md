@@ -14,11 +14,7 @@ Build a reliable reusable knowledge base for programming, troubleshooting, macro
 - Primarily used for Auto Nightclub and live-event work.
 
 ## Official Manual Reference
-- Current software verified 2026-09-28: `2.5.1.0`.
-- Current full User Manual branch: `2.5`.
-- Use [MANUAL_REFERENCE.md](MANUAL_REFERENCE.md) for authoritative links, version tracking, and manual-reference rules.
-- When an answer materially relies on the MA Lighting manual, explicitly state the manual version being referenced.
-- For version-sensitive commands, menus, options, or behavior, verify the relevant MA Lighting manual branch before answering.
+Use [MANUAL_REFERENCE.md](MANUAL_REFERENCE.md) as the sole source for current software/manual versions, authoritative links, and manual-reference rules.
 
 ## Topics Already Worked On
 - Fixture pan/tilt inversion and 180° physical orientation changes.

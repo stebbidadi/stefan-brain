@@ -4,7 +4,7 @@
 
 ## Status
 **Status:** Active  
-**Last updated:** 2026-09-28
+**Last updated:** 2026-09-30
 
 ## Goal
 Create a strong portfolio for job applications, freelance opportunities, and professional outreach.
@@ -31,8 +31,8 @@ Create a strong portfolio for job applications, freelance opportunities, and pro
 - Keep the portfolio adaptable for different applications.
 
 ## Related Projects
-- `../respress/PROJECT.md`
-- `../career/PROJECT.md`
+- [ResPress](../respress/PROJECT.md)
+- [Career & Job Applications](../career/PROJECT.md)
 
 ## Notes for ChatGPT
 Do not overload layouts with explanatory text unless requested. Preserve whitespace and visual hierarchy.

@@ -4,7 +4,7 @@
 
 ## Status
 **Status:** Active  
-**Last updated:** 2026-09-28
+**Last updated:** 2026-09-30
 
 ## Goal
 Maintain and improve the venue's technical operation, lighting workflow, equipment readiness, event support, and documentation.
@@ -47,9 +47,9 @@ Technical / house manager (`Tækni-/hússtjóri`).
 - Improve pre-visualization workflow.
 
 ## Related Projects
-- `../grandma3/PROJECT.md`
-- `../lighting-previs/PROJECT.md`
-- `../live-events-career/PROJECT.md`
+- [grandMA3](../grandma3/PROJECT.md)
+- [Lighting Pre-Visualization](../lighting-previs/PROJECT.md)
+- [Live Events & Technical Career Development](../live-events-career/PROJECT.md)
 
 ## Notes for ChatGPT
 Read this file before substantial Auto-related work. Keep detailed MA3 programming notes in the grandMA3 project.

@@ -4,7 +4,7 @@
 
 ## Status
 **Status:** Active / Researching  
-**Last updated:** 2026-09-28
+**Last updated:** 2026-09-30
 
 ## Goal
 Create a practical pre-vis workflow for programming lighting and video before arriving on-site.
@@ -37,6 +37,6 @@ The user focuses primarily on lighting. A friend focuses more on VJ / Resolume w
 - Test MA3 + Resolume + visualizer signal flow.
 
 ## Related Projects
-- `../auto-nightclub/PROJECT.md`
-- `../grandma3/PROJECT.md`
-- `../live-events-career/PROJECT.md`
+- [Auto Nightclub](../auto-nightclub/PROJECT.md)
+- [grandMA3](../grandma3/PROJECT.md)
+- [Live Events & Technical Career Development](../live-events-career/PROJECT.md)

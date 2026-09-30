@@ -4,7 +4,7 @@
 
 ## Status
 **Status:** Active  
-**Last updated:** 2026-09-28
+**Last updated:** 2026-09-30
 
 ## Goal
 Create a repeatable and fair system for scoping, pricing, quoting, and delivering freelance design and related project work.
@@ -35,8 +35,8 @@ Clarify whether a project is pure layout/typesetting, layout plus design, image 
 - Track actual time spent to improve future estimates.
 
 ## Related Projects
-- `../career/PROJECT.md`
-- `../portfolio/PROJECT.md`
+- [Career & Job Applications](../career/PROJECT.md)
+- [Graphic Design Portfolio](../portfolio/PROJECT.md)
 
 ## Notes for ChatGPT
 Keep quote language natural and human. Clarify design scope when it materially affects pricing.

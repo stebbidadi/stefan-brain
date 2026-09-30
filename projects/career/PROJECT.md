@@ -4,7 +4,7 @@
 
 ## Status
 **Status:** Active  
-**Last updated:** 2026-09-28
+**Last updated:** 2026-09-30
 
 ## Goal
 Find strong roles combining graphic design, digital work, communications, technical production, events, project coordination, or related skills.
@@ -61,9 +61,9 @@ Find strong roles combining graphic design, digital work, communications, techni
 - Explore both design/digital and event-production roles.
 
 ## Related Projects
-- `../portfolio/PROJECT.md`
-- `../freelance/PROJECT.md`
-- `../live-events-career/PROJECT.md`
+- [Graphic Design Portfolio](../portfolio/PROJECT.md)
+- [Freelance Work](../freelance/PROJECT.md)
+- [Live Events & Technical Career Development](../live-events-career/PROJECT.md)
 
 ## Notes for ChatGPT
 Preserve a natural, human tone in applications. Reuse factual background while tailoring emphasis to each role.
