@@ -24,11 +24,13 @@ Technical / house manager (`Tækni-/hússtjóri`).
 - Some social-media support.
 
 ## Technical Environment
-- grandMA3 compact XT.
+- Main venue lighting is usually operated from a Wolfmix.
+- Auto does **not** have a permanently installed grandMA3 compact XT.
+- grandMA3 is used when needed, with the desk depending on the situation; this may be a grandMA3 Compact, Compact XT, or Light.
 - Resolume PC.
 - External Ethernet switch.
-- Art-Net workflow.
-- MA3 IP: `10.0.0.10`
+- Art-Net workflow when grandMA3 / Resolume integration is in use.
+- MA3 IP previously used: `10.0.0.10`
 - Resolume IP: `10.0.0.20`
 - Subnet: `255.255.255.0`
 - Art-Net priority previously used: `101`
